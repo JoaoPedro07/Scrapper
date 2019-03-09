@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import docx
 from tqdm import tqdm
-import os
 personagens = []
 link1 = "https://paladins.gamepedia.com/Category:Voice_lines"
 site = requests.get(link1)
